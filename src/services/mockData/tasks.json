@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "title": "Complete project proposal",
+    "description": "Finish the Q4 marketing project proposal with budget analysis and timeline. Include competitive research and ROI projections.",
+    "priority": "high",
+    "dueDate": "2024-01-25",
+    "completed": false,
+    "listId": "work",
+    "createdAt": "2024-01-20T09:00:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 2,
+    "title": "Review code changes",
+    "description": "Review the latest pull requests from the development team and provide feedback on the authentication module updates.",
+    "priority": "medium",
+    "dueDate": "2024-01-22",
+    "completed": false,
+    "listId": "work",
+    "createdAt": "2024-01-19T14:30:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 3,
+    "title": "Buy groceries",
+    "description": "Weekly grocery shopping - milk, bread, eggs, vegetables, and ingredients for meal prep this week.",
+    "priority": "low",
+    "dueDate": "2024-01-21",
+    "completed": true,
+    "listId": "personal",
+    "createdAt": "2024-01-18T10:15:00.000Z",
+    "completedAt": "2024-01-20T16:45:00.000Z"
+  },
+  {
+    "Id": 4,
+    "title": "Call mom",
+    "description": "Weekly catch-up call with mom to discuss family updates and weekend plans.",
+    "priority": "medium",
+    "dueDate": null,
+    "completed": false,
+    "listId": "personal",
+    "createdAt": "2024-01-17T20:00:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 5,
+    "title": "Plan weekend hiking trip",
+    "description": "Research trails, check weather, pack gear, and coordinate meeting time with friends for Saturday hike.",
+    "priority": "low",
+    "dueDate": "2024-01-24",
+    "completed": false,
+    "listId": "personal",
+    "createdAt": "2024-01-16T13:20:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 6,
+    "title": "Study for certification exam",
+    "description": "Complete chapters 8-10 of the study guide and take practice tests for the upcoming cloud architecture certification.",
+    "priority": "high",
+    "dueDate": "2024-01-30",
+    "completed": false,
+    "listId": "learning",
+    "createdAt": "2024-01-15T08:30:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 7,
+    "title": "Update resume",
+    "description": "Add recent project achievements and update skills section with new technologies learned this quarter.",
+    "priority": "medium",
+    "dueDate": null,
+    "completed": true,
+    "listId": "career",
+    "createdAt": "2024-01-14T11:45:00.000Z",
+    "completedAt": "2024-01-19T15:30:00.000Z"
+  },
+  {
+    "Id": 8,
+    "title": "Book dentist appointment",
+    "description": "Schedule routine cleaning and checkup appointment for next month.",
+    "priority": "low",
+    "dueDate": "2024-01-26",
+    "completed": false,
+    "listId": "personal",
+    "createdAt": "2024-01-13T16:00:00.000Z",
+    "completedAt": null
+  }
+]

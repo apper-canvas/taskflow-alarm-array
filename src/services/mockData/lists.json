@@ -1,0 +1,30 @@
+[
+  {
+    "id": "work",
+    "name": "Work",
+    "color": "#3b82f6",
+    "taskCount": 2,
+    "createdAt": "2024-01-01T08:00:00.000Z"
+  },
+  {
+    "id": "personal",
+    "name": "Personal",
+    "color": "#10b981",
+    "taskCount": 4,
+    "createdAt": "2024-01-01T08:05:00.000Z"
+  },
+  {
+    "id": "learning",
+    "name": "Learning",
+    "color": "#f59e0b",
+    "taskCount": 1,
+    "createdAt": "2024-01-01T08:10:00.000Z"
+  },
+  {
+    "id": "career",
+    "name": "Career",
+    "color": "#8b5cf6",
+    "taskCount": 1,
+    "createdAt": "2024-01-01T08:15:00.000Z"
+  }
+]

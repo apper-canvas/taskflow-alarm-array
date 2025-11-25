@@ -1,0 +1,113 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Custom Toast Styles */
+.Toastify__toast-container {
+  @apply text-sm;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg;
+  font-family: 'Inter', sans-serif;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-l-4 border-success-500;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-l-4 border-error-500;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-l-4 border-primary-500;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary-400 to-primary-600;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
+
+/* Strike-through animation */
+.task-completed {
+  @apply line-through opacity-60 transition-all duration-300;
+}
+
+/* Checkbox animation */
+.checkbox-scale {
+  transition: transform 0.15s ease-out;
+}
+
+.checkbox-scale:hover {
+  transform: scale(1.1);
+}
+
+.checkbox-scale:active {
+  transform: scale(1.2);
+}
+
+/* Card hover effects */
+.task-card {
+  transition: all 0.2s ease-out;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Button click animation */
+.btn-click {
+  transition: transform 0.1s ease-out;
+}
+
+.btn-click:active {
+  transform: scale(0.98);
+}
+
+/* Smooth animations */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
